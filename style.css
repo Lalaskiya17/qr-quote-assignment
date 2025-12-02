@@ -1,18 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Outfit", sans-serif;
     height: fit-content;
+    min-height: 99vh;
     background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
     background-color: #fff;
     text-align: center;
     border: 1px solid #fff;
-    margin: 60px auto;
+    margin: 0 auto;
     border-radius: 1rem;
     align-content: center;
     width: 75vw;
-    height: 70vh;
+    height: auto;
 }
 
 img {
