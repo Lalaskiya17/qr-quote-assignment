@@ -1,0 +1,83 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+main {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 60px auto;
+    border-radius: 1rem;
+    align-content: center;
+    width: 75vw;
+    height: 70vh;
+}
+
+img {
+    width: 90%;
+    border-radius: 1rem;
+    margin: 5px auto;
+    height: auto;
+    max-width: 100%;
+    padding: 5px auto;
+}
+div{
+    font-size:15px;
+}
+
+p {
+    font-weight: 700;
+    margin: 10px;
+    max-width: 100%;
+    display: inline;
+    display: block;
+}
+
+.gray {
+    color: gray;
+    font-weight: 400;
+    margin: 10px;
+    max-width: 100%;
+    display: inline;
+}
+
+.attribution {
+    background-color: #34D1BF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+    main {
+        width:min(100% 400px) ;
+        height: 55vh;
+    }
+
+    img{
+        width:min(100% 400px)
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 1300px) {
+    main {
+        width: 30%;
+        height: 55vh;
+    }
+    img {
+        width:min(100% 600px)
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    main {
+        width: 30%;
+        height: 70vh;
+    }
+    img {
+        width:min(100% 800px);
+    } 
+}
